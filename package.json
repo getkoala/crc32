@@ -1,0 +1,21 @@
+{
+  "name": "@koala-live/crc32",
+  "version": "0.1.0",
+  "module": "dist/index.m.js",
+  "unpkg": "dist/index.min.js",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
+  "description": "Tiny implementation of CRC32",
+  "repository": "https://github.com/koala-live/crc32",
+  "author": "Netto Farah",
+  "license": "MIT",
+  "scripts": {
+    "test": "uvu -r esm tests",
+    "build": "bundt"
+  },
+  "devDependencies": {
+    "bundt": "^1.1.5",
+    "esm": "^3.2.25",
+    "uvu": "^0.5.3"
+  }
+}
