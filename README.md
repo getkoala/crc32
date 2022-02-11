@@ -8,7 +8,7 @@ $ npm install --save @koala-live/crc32
 ```
 
 ```javascript
-import crc32 from '@koala-live/crc32'
+import { crc32 } from '@koala-live/crc32'
 
 crc32('koala 🐨') // 4005375993
 ```
