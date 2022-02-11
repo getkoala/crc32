@@ -9,9 +9,12 @@
   "repository": "https://github.com/koala-live/crc32",
   "author": "Netto Farah",
   "license": "MIT",
+  "private": false,
   "scripts": {
     "test": "uvu -r esm tests",
-    "build": "bundt"
+    "build": "bundt",
+    "prepack": "yarn build",
+    "pub": "npm publish --access=public"
   },
   "devDependencies": {
     "bundt": "^1.1.5",
