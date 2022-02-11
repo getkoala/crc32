@@ -1,6 +1,6 @@
 {
   "name": "@koala-live/crc32",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "module": "dist/index.m.js",
   "unpkg": "dist/index.min.js",
   "main": "dist/index.js",

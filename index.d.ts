@@ -1,1 +1,1 @@
-export default function crc32(str: string): number;
+export function crc32(str: string): number;
